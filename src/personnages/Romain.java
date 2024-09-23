@@ -32,5 +32,13 @@ public class Romain {
 		}
 
 	}
+	
+	public static void main(String[] args) {
+		Romain cesar = new Romain("César", 7);
+		cesar.parler("Salut à toi jeune Gaulois !");
+		
+		Gaulois asterix = new Gaulois("Astérix", 8);
+		cesar.recevoirCoup(8);
+	}
 
 }
